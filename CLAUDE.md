@@ -29,18 +29,6 @@ Each layer should be usable on its own. Don't start a layer until the previous o
 3. Next.js front end: dashboard, invoice generation, monthly income view.
 4. Launch: use it daily, then use it as the demo when looking for local clients.
 
-### Quick win (between layers 1 and 2)
-
-Road-trip CD builder (Python, one weekend): packs a playlist into 80-minute discs, ordered by mood or energy. Its purpose is to prove that finishing things still happens.
-
-## Backlog (later, not now)
-
-- Camping trip planner for the Tacoma and Tune M1 (free/dispersed sites, route, weather, fuel cost)
-- Local LLM lab on own hardware (Ollama, RAG over personal notes, benchmark desktop vs laptop)
-- Switchbox upgrades (AI opponent, online two-player)
-- Open-source "good first issue" contributions
-- Personal model eval harness (quality / cost / speed)
-
 ## First milestone, due Sun Nov 15
 
 - [ ] Step 0 setup done on both machines
