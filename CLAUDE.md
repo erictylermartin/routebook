@@ -29,12 +29,6 @@ Each layer should be usable on its own. Don't start a layer until the previous o
 3. Next.js front end: dashboard, invoice generation, monthly income view.
 4. Launch: use it daily, then use it as the demo when looking for local clients.
 
-## First milestone, due Sun Nov 15
-
-- [ ] Step 0 setup done on both machines
-- [ ] Repo created for the freelance tracker
-- [ ] Python script that saves one time entry to SQLite
-
 ## How to work with me (Claude)
 
 - Talk through proposed changes and get my approval before building. It saves tokens and gets the product I want.
