@@ -28,9 +28,9 @@ A "lightweight Jira for one": a single place to check any project and see its ti
 ## Data model (SQLite)
 
 ```
-clients       (id, name, email, hourly_rate, created_at)
+clients       (id, name, email, hourly_rate_cents, created_at)
 projects      (id, client_id → clients, name, status [active|paused|done],
-               hourly_rate NULL  -- overrides client rate,
+               hourly_rate_cents NULL  -- overrides client rate; money in integer cents,
                budget_hours NULL, created_at)
 features      (id, project_id → projects, title, description,
                stage [idea|ready|in_progress|review|staging|deployed],
