@@ -1,0 +1,3 @@
+# Real client data stays out of git
+*.db
+__pycache__/

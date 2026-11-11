@@ -46,7 +46,7 @@ Each layer should be usable on its own. Don't start a layer until the previous o
 
 _Updated at the end of each session. New session? Start here._
 
-- Done: product spec (`docs/product.md`), layer plan, working-style notes. Layer 1a step 1 drafted: `tracker/schema.sql` + `tracker/examples.sql` (tested).
-- Next: I explain back the composite FK on `time_entries` and query Q2 (why the date filter is in `ON`, not `WHERE`). Then Layer 1a step 2: Python CLI `log` command.
+- Done: spec, layer plan. Layer 1a: `tracker/schema.sql`, `tracker/examples.sql`, `tracker/cli.py` (init, add-client, add-project, log, hours, help). Explain-backs on composite FK + ON-vs-WHERE passed (after a live demo).
+- Next: on main PC, run `init`, add RVSelfPark + Me clients, log real sessions. Explain back: why `?` placeholders, and why `PRAGMA foreign_keys = ON` lives in `connect()`. Lesson to keep: when unsure what code does, run it.
 - Open questions: none. (Decided: money is stored as integer cents.)
 - Hours logged with the tracker so far: 0 (gate for 1b: ~2 weeks of real use).
