@@ -22,11 +22,15 @@
 
 ## Main project: Freelance tracker (built in layers)
 
+Vision: a "lightweight Jira for one". Each project gets one page covering its time, documents and features moving toward deployment. Full spec and data model: `docs/product.md`.
+
 Each layer should be usable on its own. Don't start a layer until the previous one works.
 
-1. Python core: a CLI that logs time entries and clients to SQLite.
-2. Python MCP server: lets Claude read and log hours ("log 90 min on client X").
-3. Next.js front end: dashboard, invoice generation, monthly income view.
+1a. Python core: a CLI that logs clients, projects and time entries to SQLite. The schema covers features and documents from day 1.
+    Gate: log real hours with it for ~2 weeks before 1b (RVSelfPark scoping calls and proposal writing count, and so does time spent on this tracker).
+1b. CLI commands for features (fixed stages, through to deployed) and documents (links).
+2. Python MCP server: lets Claude read and log hours ("log 90 min on client X") and move features to another stage.
+3. Next.js front end: project list, then a project page with tabs (Overview, Time, Features board, Documents, Invoices).
 4. Launch: use it daily, then use it as the demo when looking for local clients.
 
 ## How to work with me (Claude)
@@ -34,4 +38,5 @@ Each layer should be usable on its own. Don't start a layer until the previous o
 - Talk through proposed changes and get my approval before building. It saves tokens and gets the product I want.
 - Be token-efficient. Use lighter or faster models for simple tasks.
 - Hold me accountable firmly, like a coach I'm paying, not a tolerant friend. If I'm drifting or starting new things instead of finishing, call it out.
-- Teach, don't just do. The goal is rebuilding my skills, so explain the why on anything non-trivial and let me write parts myself when it's useful practice.
+- Teach, don't just do. The goal is rebuilding my skills, so explain the why on anything non-trivial.
+- I'll mostly work with generated code, so the skill I'm practising is reading and reviewing it, not syntax. Claude writes the code (SQL especially) with comments that explain the reasoning. Check my understanding by having me explain key pieces back. No syntax drills unless I ask.
