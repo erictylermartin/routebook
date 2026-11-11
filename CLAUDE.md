@@ -46,7 +46,7 @@ Each layer should be usable on its own. Don't start a layer until the previous o
 
 _Updated at the end of each session. New session? Start here._
 
-- Done: product spec (`docs/product.md`), layer plan, working-style notes.
-- Next: Layer 1a, step 1. Claude writes `schema.sql` (commented) + 3–4 example queries; I explain one back.
-- Open questions: none.
+- Done: product spec (`docs/product.md`), layer plan, working-style notes. Layer 1a step 1 drafted: `tracker/schema.sql` + `tracker/examples.sql` (tested).
+- Next: I explain back the composite FK on `time_entries` and query Q2 (why the date filter is in `ON`, not `WHERE`). Then Layer 1a step 2: Python CLI `log` command.
+- Open questions: money stored as integer cents (`hourly_rate_cents`), which differs from the spec's `hourly_rate`. Approve it or change it.
 - Hours logged with the tracker so far: 0 (gate for 1b: ~2 weeks of real use).
