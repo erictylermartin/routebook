@@ -40,3 +40,13 @@ Each layer should be usable on its own. Don't start a layer until the previous o
 - Hold me accountable firmly, like a coach I'm paying, not a tolerant friend. If I'm drifting or starting new things instead of finishing, call it out.
 - Teach, don't just do. The goal is rebuilding my skills, so explain the why on anything non-trivial.
 - I'll mostly work with generated code, so the skill I'm practising is reading and reviewing it, not syntax. Claude writes the code (SQL especially) with comments that explain the reasoning. Check my understanding by having me explain key pieces back. No syntax drills unless I ask.
+- At the end of each session, update "Current status" below before the final commit.
+
+## Current status
+
+_Updated at the end of each session. New session? Start here._
+
+- Done: product spec (`docs/product.md`), layer plan, working-style notes.
+- Next: Layer 1a, step 1. Claude writes `schema.sql` (commented) + 3–4 example queries; I explain one back.
+- Open questions: none.
+- Hours logged with the tracker so far: 0 (gate for 1b: ~2 weeks of real use).
